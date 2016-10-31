@@ -1,0 +1,134 @@
+/* Netigate survey custom styles  */
+
+body{
+	padding-top: 60px; /* When navbar is fixed on top we need this padding. */
+	font-family: 'Open Sans';
+
+	background: url(http://netigate.se/CSSGenerator2/adidasImages/rita-ora-x-adidas-originals-stan-smith.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	
+	color: #efefef;
+}
+
+.navbar{
+	background: #2c3033;
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.4);
+}
+
+.navbar .navbar-brand img{
+	width: auto;
+}
+
+.survey-header .survey-header-content{
+	text-align: center;
+	margin: 4rem 0px;
+}
+
+.survey-header .survey-header-content .title{
+	color: #49a4d9;
+} 
+
+.survey-header .survey-header-content .subtitle{
+	display: inline-block;
+    padding: 5px 30px;
+    margin: 10px 0px;
+    border: 1px solid rgba(255,255,255,.1);
+    border-left: none;
+    border-right: none;
+	color: rgba(255,255,255,.7);
+}
+
+.row.survey-question{
+	padding: 6rem 0px;
+}
+
+.row.survey-question .survey-question-header{
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+
+/* Range Input */
+
+.range-input label.range-input-left,
+.range-input label.range-input-right{
+	font-size: 0.9rem;
+	color: #818a91;
+	font-weight: 600;
+}
+
+.range-input label.range-input-left{
+	float: left;		
+}
+
+.range-input label.range-input-left{
+	float: right;
+}
+
+.range-input input[type="range"]{
+	display: block;
+	margin: 10px auto;
+	width: 80%;
+}
+
+/* Table */
+
+.table .form-check{
+	margin-bottom: 0px;
+}
+
+.table td, .table th{
+	vertical-align: middle;
+	border-color: rgba(255,255,255,.1)!important;
+
+	color: #818a91;
+}
+
+table.table.radio-table thead th{
+	text-align: center;
+}
+
+table.table.radio-table .form-check-label{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+.row.submit-area{
+	padding:50px 0px;
+	text-align: center;	
+}
+
+.row.submit-area .btn{
+	padding-right: 3rem;
+	padding-left: 3rem;
+}
+
+/* Footer  */
+
+footer{
+	margin-top: 50px;
+	padding:50px 0px;
+
+	border-top: 1px solid rgba(255,255,255,.1);
+	font-size: 0.8rem;
+}
+
+footer
+
+footer .credits{
+	float: right;
+}
+
+footer .credits img{
+	margin-left: 10px;
+	width: 100px;
+	height: auto;
+	margin: 10px;
+}
+
+
