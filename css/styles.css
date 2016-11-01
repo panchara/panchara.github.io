@@ -108,6 +108,30 @@ table.table.radio-table .form-check-label{
 	padding-left: 3rem;
 }
 
+/* Progress Bar */
+
+.pbar {
+width: 300px;
+height: 15px;
+background-color: transparent;
+border-style: solid;
+border-width: 1px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+padding: 1px;
+margin: 0 auto 10px auto;
+}
+
+.pbarinner {
+background-color: #49a4d9;
+height: 100%;
+border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+}
+
+
 /* Footer  */
 
 footer{
@@ -129,4 +153,33 @@ footer .credits img{
 	margin: 10px;
 }
 
+img{
+	max-width: 100%;
+}
 
+/* Styling Netigate */
+.form-check-label > span,
+.qoption{
+	color: #b3b3b3;
+}
+
+.survey-question-content input[type="radio"]:checked + span,
+.survey-question-content input[type="checkbox"]:checked + span{
+	color: white;
+}
+
+/* investigate if (max-device-width: 768px) is better */
+@media only screen and (max-width: 768px) {
+	.survey-question{
+		min-height: 100vh;
+	}
+
+	.survey-question > .survey-question-header{
+		margin-top: 50%;
+		transform: translateY(-50%);
+	}
+}
+
+/* Dont remove this */
+¤ {
+}
