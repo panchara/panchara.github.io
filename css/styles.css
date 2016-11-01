@@ -43,7 +43,7 @@ body{
 	color: rgba(255,255,255,.7);
 }
 
-.row.survey-question{
+.survey-question-wrapper > * > .row{
 	padding: 6rem 0px;
 }
 
@@ -99,7 +99,6 @@ table.table.radio-table .form-check-label{
 }
 
 .row.submit-area{
-	padding:50px 0px;
 	text-align: center;	
 }
 
