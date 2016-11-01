@@ -169,6 +169,7 @@ img{
 }
 
 /* investigate if (max-device-width: 768px) is better */
+/*
 @media only screen and (max-width: 768px) {
 	.survey-question{
 		min-height: 100vh;
@@ -179,7 +180,7 @@ img{
 		transform: translateY(-50%);
 	}
 }
-
+*/
 /* Dont remove this */
 ¤ {
 }
