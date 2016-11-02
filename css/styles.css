@@ -4,7 +4,7 @@ body{
 	padding-top: 60px; /* When navbar is fixed on top we need this padding. */
 	font-family: 'Open Sans';
 
-	background: url(http://netigate.se/CSSGenerator2/adidasImages/rita-ora-x-adidas-originals-stan-smith.jpg) no-repeat center center fixed;
+	background: url('http://netigate.se/CSSGenerator2/adidasImages/rita-ora-x-adidas-originals-stan-smith.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -26,9 +26,14 @@ body{
 
 .navbar.navbar-fixed-bottom{
 	display: none;
-	background: #49a4d9;
+	background: #007fff;
 	transform: translateY(100%);
 	transition: transform 100ms linear;
+}
+
+.navbar.navbar-fixed-bottom button.btn{
+    background: #eee;
+    color: black;
 }
 
 .navbar.navbar-fixed-bottom.show{
@@ -177,6 +182,20 @@ img{
 .survey-question-content input[type="radio"]:checked + span,
 .survey-question-content input[type="checkbox"]:checked + span{
 	color: white;
+}
+
+/* jQuery UI */
+
+
+
+.ui-checkboxradio-radio-label .ui-icon-background{
+	box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+}
+.ui-checkboxradio-label{
+    text-align: left;
+    width: 100%;
 }
 
 /* Bottom Bar */
